@@ -3,7 +3,7 @@ const cloud = require('wx-server-sdk');
 
 // 初始化 cloud
 cloud.init({
-  env: 'easy-0gbndsc500912db9',
+  env: 'cloud1-9gzmrnz4be1e8f30',
 });
 
 const db = cloud.database();
@@ -32,6 +32,7 @@ exports.main = async () => {
     avatarUrl: userInfo.avatarUrl,
     nickName: userInfo.nickName,
     bestScore: userInfo.bestScore,
+    gameData: userInfo.gameData,
   };
 };
 

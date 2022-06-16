@@ -6,7 +6,7 @@
     "backgroundColor": "#faf8ee",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#faf8ee",
-    "navigationBarTitleText": "我要吃瓜",
+    "navigationBarTitleText": "吃瓜2048",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

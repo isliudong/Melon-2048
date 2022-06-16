@@ -3,7 +3,7 @@
   "cloudfunctionRoot": "cloudfunctions/",
   "setting": {
     "urlCheck": true,
-    "es6": true,
+    "es6": false,
     "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
@@ -19,8 +19,7 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": true,
+    "useMultiFrameRuntime": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -34,26 +33,30 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "lazyloadPlaceholderEnable": false,
+    "disableUseStrict": false,
+    "ignoreUploadUnusedFiles": true,
+    "minifyWXML": true,
+    "useStaticServer": true,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false
   },
-  "appid": "xxxxxx",
-  "projectname": "melon",
-  "libVersion": "2.17.0",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
-  "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": []
-    }
-  }
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "condition": {},
+  "compileType": "game",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "libVersion": "2.24.1",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wx0fce8e7a619182f3"
 }
